@@ -44,7 +44,7 @@ int main(){
     //Total cost
     int totalCost = Cost_1 + Cost_2 + Cost_3 + Cost_4 + Cost_5; 
     printf("\nThe total cost for all items = %d/=\n" , totalCost);
-    /*
+    
     // Payment and change
     int payment, change;
 
@@ -58,8 +58,8 @@ int main(){
         else {
             printf("Insufficient payment. Please pay atleast USH%d\n", totalCost);
         }
-    printf("Thank you for shopping with us. COME AGAIN");
-*/
+    printf("\nThank you for shopping with us. COME AGAIN\n");
+
 
 return 0;
 }
