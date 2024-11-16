@@ -8,7 +8,24 @@ int main(){
     int price4 = 5500; //soap
     int price5 = 2000; //flour
     
-    //printf()
+    //logo and welcome
+    printf("===================================================\n");
+    printf("|                                                 |\n");
+    printf("|        _____                           _____     |\n");
+    printf("|       / ____|                         / ____|    |\n");
+    printf("|      | |  __  ___ _ __   ___ _ __    | (___   ___  _ __ __ _ _ __   ___ _ __   |\n");
+    printf("|      | | |_ |/ _ \\\\ '_ \\\\ / _ \\\\ '__|    \\\\___ \\\\ / _ \\\\ '__/ _` | '_ \\\\ / _ \\\\ '__|  |\n");
+    printf("|      | |__| |  __/ | | |  __/ |       ____) | (_) | | | (_| | |_) |  __/ |     |\n");
+    printf("|       \\\\_____|\\\\___|_| |_|\\\\___|_|      |_____/ \\\\___/|_|  \\\\__,_| .__/ \\\\___|_|     |\n");
+    printf("|                                                            | |                 |\n");
+    printf("|                                                            |_|                 |\n");
+    printf("|                                                                               |\n");
+    printf("|                    Fresh Goods, Great Prices                                   |\n");
+    printf("===================================================\n");
+    
+    //Item list 
+
+    //quantities and costs
     int qty1,qty2,qty3,qty4,qty5;
     int Cost_1, Cost_2, Cost_3, Cost_4, Cost_5;
     //Apples
@@ -58,7 +75,7 @@ int main(){
         else {
             printf("Insufficient payment. Please pay atleast USH%d\n", totalCost);
         }
-    printf("\nThank you for shopping with us. COME AGAIN\n");
+    printf("\nThank you for shopping with us. COME AGAIN !!!\n");
 
 
 return 0;
